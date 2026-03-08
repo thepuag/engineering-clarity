@@ -2,95 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Palette: Navy engineering tones */
+    --navy-900: 212 60% 19%;    /* #132D4E */
+    --navy-950: 216 87% 8%;     /* #031124 */
+    --navy-700: 212 42% 34%;    /* #325179 */
+    --navy-500: 214 48% 43%;    /* #3967A3 */
+    --navy-300: 214 33% 71%;    /* #9AB0CE */
+    --navy-100: 214 64% 92%;    /* #DCE8F8 */
+
+    /* Light theme */
+    --background: 210 20% 98%;
+    --foreground: 212 60% 19%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 212 60% 19%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 212 60% 19%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 214 48% 43%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 214 64% 92%;
+    --secondary-foreground: 212 60% 19%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 214 30% 95%;
+    --muted-foreground: 212 20% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 212 42% 34%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 214 30% 88%;
+    --input: 214 30% 88%;
+    --ring: 214 48% 43%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Card specific */
+    --card-bg: 0 0% 100% / 0.7;
+    --card-hover-border: 214 48% 43%;
+    --card-radius: 8px;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Navbar */
+    --navbar-bg: 0 0% 100% / 0.75;
 
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Cookie banner */
+    --overlay-bg: 0 0% 0% / 0.5;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 216 87% 8%;
+    --foreground: 214 64% 92%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 212 60% 19%;
+    --card-foreground: 214 64% 92%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 212 60% 19%;
+    --popover-foreground: 214 64% 92%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 214 48% 43%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 212 42% 34%;
+    --secondary-foreground: 214 64% 92%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 212 42% 24%;
+    --muted-foreground: 214 33% 71%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 214 33% 71%;
+    --accent-foreground: 216 87% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 212 42% 24%;
+    --input: 212 42% 24%;
+    --ring: 214 48% 43%;
+
+    --card-bg: 212 60% 19% / 0.6;
+    --card-hover-border: 214 33% 71%;
+
+    --navbar-bg: 216 87% 8% / 0.8;
   }
 }
 
@@ -98,8 +95,80 @@ All colors MUST be HSL.
   * {
     @apply border-border;
   }
-
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
+}
+
+@layer components {
+  /* Translucent card with hover effect */
+  .glass-card {
+    background: hsl(var(--card-bg));
+    border-radius: var(--card-radius);
+    border: 1px solid transparent;
+    backdrop-filter: blur(12px);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .glass-card:hover {
+    transform: scale(1.03);
+    border-color: hsl(var(--card-hover-border));
+    box-shadow: 0 8px 32px hsl(var(--primary) / 0.15);
+  }
+
+  /* Floating navbar pill */
+  .navbar-float {
+    background: hsl(var(--navbar-bg));
+    backdrop-filter: blur(16px);
+    border-radius: 9999px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .navbar-sticky {
+    background: hsl(var(--navbar-bg));
+    backdrop-filter: blur(16px);
+    border-radius: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Dynamic island animation */
+  .island-enter {
+    animation: island-expand 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  .island-exit {
+    animation: island-shrink 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  /* Carousel dots */
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: hsl(var(--muted-foreground) / 0.3);
+    transition: all 0.3s ease;
+  }
+  .dot-active {
+    width: 20px;
+    border-radius: 3px;
+    background: hsl(var(--primary));
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply px-4 py-16 md:px-8 md:py-24 lg:px-16;
+  }
+}
+
+@layer utilities {
+  .container-query {
+    container-type: inline-size;
+  }
+}
+
+@keyframes island-expand {
+  0% { transform: scaleX(0.6) scaleY(0.8); opacity: 0; border-radius: 24px; }
+  100% { transform: scaleX(1) scaleY(1); opacity: 1; border-radius: 8px; }
+}
+@keyframes island-shrink {
+  0% { transform: scaleX(1) scaleY(1); opacity: 1; border-radius: 8px; }
+  100% { transform: scaleX(0.6) scaleY(0.8); opacity: 0; border-radius: 24px; }
 }

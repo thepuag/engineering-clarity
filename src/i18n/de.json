@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "projects": "Projekte",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Präzisionstechnik",
+    "subtitle": "Bauleitung, Installationsberechnungen und umfassende technische Lösungen",
+    "cta": "Projekte ansehen"
+  },
+  "projects": {
+    "title": "Projekte",
+    "filterAll": "Alle",
+    "date": "Datum",
+    "location": "Standort"
+  },
+  "services": {
+    "title": "Dienstleistungen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "email": "Per E-Mail kontaktieren",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "office": "Büro"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Akzeptieren Sie die Verwendung von Cookies?",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
+  },
+  "footer": {
+    "createdBy": "Webseite erstellt von Noé Montoro García"
+  }
+}

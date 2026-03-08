@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "slug": "residencial-aurora",
+    "title": { "es": "Residencial Aurora", "en": "Aurora Residential", "de": "Wohnanlage Aurora" },
+    "date": "2024-03",
+    "location": { "es": "Madrid, España", "en": "Madrid, Spain", "de": "Madrid, Spanien" },
+    "tags": ["direccion-obras"],
+    "coverImage": "/images/projects/residencial-aurora/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Dirección de obra de un complejo residencial de 120 viviendas con zonas comunes y garaje subterráneo.",
+      "en": "Project management of a 120-unit residential complex with common areas and underground parking.",
+      "de": "Bauleitung eines Wohnkomplexes mit 120 Einheiten, Gemeinschaftsbereichen und Tiefgarage."
+    },
+    "fullDescription": {
+      "es": "Proyecto integral de dirección de obra para un complejo residencial de 120 viviendas distribuidas en 4 bloques, con zonas comunes ajardinadas, piscina comunitaria y garaje subterráneo de dos plantas. Supervisión completa desde cimentación hasta entrega de llaves.",
+      "en": "Comprehensive project management for a 120-unit residential complex across 4 blocks, with landscaped common areas, community pool and two-level underground parking. Full supervision from foundation to handover.",
+      "de": "Umfassende Bauleitung für einen Wohnkomplex mit 120 Einheiten in 4 Blöcken, mit begrünten Gemeinschaftsflächen, Gemeinschaftspool und zweigeschossiger Tiefgarage."
+    }
+  },
+  {
+    "id": "2",
+    "slug": "torre-nexus",
+    "title": { "es": "Torre Nexus", "en": "Nexus Tower", "de": "Nexus-Turm" },
+    "date": "2023-11",
+    "location": { "es": "Barcelona, España", "en": "Barcelona, Spain", "de": "Barcelona, Spanien" },
+    "tags": ["calculo-instalaciones"],
+    "coverImage": "/images/projects/torre-nexus/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Cálculo completo de instalaciones eléctricas, climatización y fontanería para torre de oficinas de 15 plantas.",
+      "en": "Complete calculation of electrical, HVAC and plumbing installations for a 15-story office tower.",
+      "de": "Vollständige Berechnung der Elektro-, HLK- und Sanitärinstallationen für einen 15-stöckigen Büroturm."
+    },
+    "fullDescription": {
+      "es": "Diseño y cálculo integral de todas las instalaciones del edificio: electricidad de alta y baja tensión, climatización centralizada con sistema VRV, fontanería, saneamiento, protección contra incendios y telecomunicaciones.",
+      "en": "Design and comprehensive calculation of all building installations: high and low voltage electricity, centralized VRV HVAC system, plumbing, drainage, fire protection and telecommunications.",
+      "de": "Planung und umfassende Berechnung aller Gebäudeinstallationen: Hoch- und Niederspannungselektrik, zentrales VRV-HLK-System, Sanitär, Entwässerung, Brandschutz und Telekommunikation."
+    }
+  },
+  {
+    "id": "3",
+    "slug": "hospital-central",
+    "title": { "es": "Hospital Central", "en": "Central Hospital", "de": "Zentralkrankenhaus" },
+    "date": "2024-06",
+    "location": { "es": "Sevilla, España", "en": "Seville, Spain", "de": "Sevilla, Spanien" },
+    "tags": ["direccion-obras", "calculo-instalaciones"],
+    "coverImage": "/images/projects/hospital-central/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Dirección de obra y cálculo de instalaciones para ampliación del ala este del hospital.",
+      "en": "Project management and installation calculations for the east wing hospital expansion.",
+      "de": "Bauleitung und Installationsberechnungen für die Erweiterung des Osttrakts des Krankenhauses."
+    },
+    "fullDescription": {
+      "es": "Proyecto combinado de dirección de obra y cálculo de instalaciones especiales hospitalarias: gases medicinales, climatización con filtros HEPA, electricidad con respaldo de emergencia, y sistemas de control centralizado.",
+      "en": "Combined project management and calculation of special hospital installations: medical gases, HEPA-filtered HVAC, emergency backup electrical systems, and centralized control systems.",
+      "de": "Kombinierte Bauleitung und Berechnung spezieller Krankenhausinstallationen: medizinische Gase, HLK mit HEPA-Filtern, Notstromversorgung und zentrale Steuerungssysteme."
+    }
+  }
+]
