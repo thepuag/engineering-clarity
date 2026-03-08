@@ -1,0 +1,24 @@
+[
+  {
+    "id": "direccion-obras",
+    "icon": "HardHat",
+    "title": { "es": "Dirección de obras", "en": "Project Management", "de": "Bauleitung" },
+    "description": {
+      "es": "Supervisión integral de proyectos de construcción, garantizando el cumplimiento de plazos, presupuestos y estándares de calidad.",
+      "en": "Comprehensive supervision of construction projects, ensuring compliance with deadlines, budgets and quality standards.",
+      "de": "Umfassende Überwachung von Bauprojekten, Sicherstellung der Einhaltung von Fristen, Budgets und Qualitätsstandards."
+    },
+    "image": "/images/services/direccion-obras.jpg"
+  },
+  {
+    "id": "calculo-instalaciones",
+    "icon": "Calculator",
+    "title": { "es": "Cálculo de instalaciones", "en": "Installation Calculations", "de": "Installationsberechnungen" },
+    "description": {
+      "es": "Diseño y dimensionamiento de instalaciones eléctricas, de climatización, fontanería y protección contra incendios.",
+      "en": "Design and sizing of electrical, HVAC, plumbing and fire protection installations.",
+      "de": "Planung und Dimensionierung von Elektro-, HLK-, Sanitär- und Brandschutzinstallationen."
+    },
+    "image": "/images/services/calculo-instalaciones.jpg"
+  }
+]

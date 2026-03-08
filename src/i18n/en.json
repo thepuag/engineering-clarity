@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Precision Engineering",
+    "subtitle": "Project management, installation calculations and comprehensive technical solutions",
+    "cta": "View projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "filterAll": "All",
+    "date": "Date",
+    "location": "Location"
+  },
+  "services": {
+    "title": "Services"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Contact by email",
+    "phone": "Phone",
+    "address": "Address",
+    "office": "Office"
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience. Do you accept the use of cookies?",
+    "accept": "Accept",
+    "reject": "Reject"
+  },
+  "footer": {
+    "createdBy": "Website created by Noé Montoro García"
+  }
+}

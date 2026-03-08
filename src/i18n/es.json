@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Ingeniería de precisión",
+    "subtitle": "Dirección de obras, cálculo de instalaciones y soluciones técnicas integrales",
+    "cta": "Ver proyectos"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "filterAll": "Todos",
+    "date": "Fecha",
+    "location": "Ubicación"
+  },
+  "services": {
+    "title": "Servicios"
+  },
+  "contact": {
+    "title": "Contacto",
+    "email": "Contactar por email",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "office": "Oficina"
+  },
+  "cookie": {
+    "message": "Utilizamos cookies para mejorar tu experiencia. ¿Aceptas el uso de cookies?",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
+  "footer": {
+    "createdBy": "Web creada por Noé Montoro García"
+  }
+}
