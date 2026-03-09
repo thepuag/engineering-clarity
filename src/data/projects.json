@@ -58,5 +58,65 @@
       "en": "Combined project management and calculation of special hospital installations: medical gases, HEPA-filtered HVAC, emergency backup electrical systems, and centralized control systems.",
       "de": "Kombinierte Bauleitung und Berechnung spezieller Krankenhausinstallationen: medizinische Gase, HLK mit HEPA-Filtern, Notstromversorgung und zentrale Steuerungssysteme."
     }
+  },
+  {
+    "id": "4",
+    "slug": "centro-comercial-marina",
+    "title": { "es": "Centro Comercial Marina", "en": "Marina Shopping Center", "de": "Einkaufszentrum Marina" },
+    "date": "2024-09",
+    "location": { "es": "Palma, España", "en": "Palma, Spain", "de": "Palma, Spanien" },
+    "tags": ["calculo-instalaciones"],
+    "coverImage": "/images/projects/centro-comercial-marina/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Cálculo de instalaciones de climatización y protección contra incendios para centro comercial de 25.000 m².",
+      "en": "HVAC and fire protection installation calculations for a 25,000 m² shopping center.",
+      "de": "Berechnung der HLK- und Brandschutzanlagen für ein Einkaufszentrum mit 25.000 m²."
+    },
+    "fullDescription": {
+      "es": "Diseño y dimensionamiento de las instalaciones de climatización con sistema centralizado de agua fría, red de conductos, protección contra incendios con rociadores y BIEs, ventilación de aparcamientos subterráneos y sistema de gestión centralizada BMS.",
+      "en": "Design and sizing of HVAC installations with centralized chilled water system, ductwork, fire protection with sprinklers and fire hose reels, underground parking ventilation and centralized BMS management system.",
+      "de": "Planung und Dimensionierung der HLK-Anlagen mit zentralem Kaltwassersystem, Kanalnetz, Brandschutz mit Sprinklern und Wandhydranten, Tiefgaragenbelüftung und zentralem BMS-Gebäudemanagementsystem."
+    }
+  },
+  {
+    "id": "5",
+    "slug": "nave-industrial-poligono-son-castello",
+    "title": { "es": "Nave Industrial Son Castelló", "en": "Son Castelló Industrial Warehouse", "de": "Industriehalle Son Castelló" },
+    "date": "2023-07",
+    "location": { "es": "Palma, España", "en": "Palma, Spain", "de": "Palma, Spanien" },
+    "tags": ["direccion-obras"],
+    "coverImage": "/images/projects/nave-industrial-poligono-son-castello/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Dirección de obra para construcción de nave industrial de 4.500 m² con oficinas y zona de carga.",
+      "en": "Project management for construction of a 4,500 m² industrial warehouse with offices and loading area.",
+      "de": "Bauleitung für den Bau einer 4.500 m² großen Industriehalle mit Büros und Ladebereich."
+    },
+    "fullDescription": {
+      "es": "Dirección completa de la obra de una nave industrial con estructura metálica, cubierta tipo deck, solera de hormigón pulido, zona de oficinas en entreplanta, dos muelles de carga y urbanización exterior con aparcamiento para vehículos pesados.",
+      "en": "Complete project management of an industrial warehouse with steel structure, deck-type roof, polished concrete floor slab, mezzanine office area, two loading docks and exterior landscaping with heavy vehicle parking.",
+      "de": "Vollständige Bauleitung einer Industriehalle mit Stahlkonstruktion, Deckendach, polierter Betonbodenplatte, Bürobereich im Zwischengeschoss, zwei Laderampen und Außengestaltung mit Schwerlastparkplätzen."
+    }
+  },
+  {
+    "id": "6",
+    "slug": "hotel-boutique-casco-antiguo",
+    "title": { "es": "Hotel Boutique Casco Antiguo", "en": "Old Town Boutique Hotel", "de": "Boutique-Hotel Altstadt" },
+    "date": "2024-01",
+    "location": { "es": "Palma, España", "en": "Palma, Spain", "de": "Palma, Spanien" },
+    "tags": ["direccion-obras", "calculo-instalaciones"],
+    "coverImage": "/images/projects/hotel-boutique-casco-antiguo/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Rehabilitación integral y cálculo de instalaciones para hotel boutique de 32 habitaciones en edificio histórico.",
+      "en": "Full renovation and installation calculations for a 32-room boutique hotel in a historic building.",
+      "de": "Gesamtsanierung und Installationsberechnungen für ein Boutique-Hotel mit 32 Zimmern in einem historischen Gebäude."
+    },
+    "fullDescription": {
+      "es": "Proyecto de rehabilitación de un palacete del siglo XVIII para su conversión en hotel boutique. Incluye dirección de obra con refuerzo estructural, restauración de fachada protegida, y cálculo de instalaciones adaptadas al patrimonio: climatización por fancoils ocultos, electricidad empotrada y fontanería con recirculación de ACS.",
+      "en": "Renovation project of an 18th-century mansion for conversion into a boutique hotel. Includes project management with structural reinforcement, protected facade restoration, and heritage-adapted installation calculations: concealed fan coil HVAC, embedded electrical systems and plumbing with DHW recirculation.",
+      "de": "Sanierungsprojekt eines Palais aus dem 18. Jahrhundert zur Umwandlung in ein Boutique-Hotel. Umfasst Bauleitung mit Strukturverstärkung, Restaurierung der denkmalgeschützten Fassade und denkmalgerechte Installationsberechnungen: verdeckte Gebläsekonvektoren, Unterputz-Elektrik und Sanitär mit Warmwasserzirkulation."
+    }
   }
 ]

@@ -2,11 +2,11 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { useLang } from '@/contexts/LangContext';
 
 const OFFICE = {
-  email: 'info@bipoficinatecnica.com',
+  email: 'jpascual@bipofitec.com',
   phone: '+34 971 123 456',
   address: 'Camí dels Reis, 164, Ponent, 07011 Palma, Illes Balears',
-  lat: 39.5696,
-  lng: 2.6158,
+  lat: 39.594273,
+  lng: 2.635033,
 };
 
 export default function ContactSection() {
