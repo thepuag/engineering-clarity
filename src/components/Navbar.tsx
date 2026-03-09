@@ -41,22 +41,22 @@ export default function Navbar() {
           scrolled ? 'max-w-full px-6 py-2' : 'max-w-3xl mt-4 px-6 py-3 navbar-float'
         }`}>
           <div className="flex items-center justify-between">
-            <span className="font-semibold text-sm text-foreground tracking-tight">{COMPANY_NAME}</span>
-            <nav className="flex items-center gap-1">
-              <div className="flex items-center gap-5 mr-4">
-                {navItems.map((item) => (
-                  <button
-                    key={item.href}
-                    onClick={() => scrollTo(item.href)}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    {item.label}
-                  </button>
-                ))}
-              </div>
+            <span className="font-semibold text-sm text-foreground tracking-tight shrink-0">{COMPANY_NAME}</span>
+            <nav className="flex-1 flex items-center justify-center gap-5">
+              {navItems.map((item) => (
+                <button
+                  key={item.href}
+                  onClick={() => scrollTo(item.href)}
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {item.label}
+                </button>
+              ))}
+            </nav>
+            <div className="flex items-center gap-1 shrink-0">
               <LanguageSwitcher />
               <ThemeToggle />
-            </nav>
+            </div>
           </div>
         </div>
       </header>
