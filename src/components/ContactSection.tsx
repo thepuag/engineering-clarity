@@ -2,11 +2,11 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { useLang } from '@/contexts/LangContext';
 
 const OFFICE = {
-  email: 'info@nmgingenieria.com',
-  phone: '+34 951 123 456',
-  address: 'Calle Ejemplo 42, 29001 Málaga, España',
-  lat: 36.7213,
-  lng: -4.4214,
+  email: 'info@bipoficinatecnica.com',
+  phone: '+34 971 123 456',
+  address: 'Camí dels Reis, 164, Ponent, 07011 Palma, Illes Balears',
+  lat: 39.5696,
+  lng: 2.6158,
 };
 
 export default function ContactSection() {

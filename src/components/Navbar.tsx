@@ -4,7 +4,7 @@ import { useLang } from '@/contexts/LangContext';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 
-const COMPANY_NAME = 'NMG Ingeniería';
+const COMPANY_NAME = 'BIP Oficina Técnica';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -42,16 +42,18 @@ export default function Navbar() {
         }`}>
           <div className="flex items-center justify-between">
             <span className="font-semibold text-sm text-foreground tracking-tight">{COMPANY_NAME}</span>
-            <nav className="flex items-center gap-6">
-              {navItems.map((item) => (
-                <button
-                  key={item.href}
-                  onClick={() => scrollTo(item.href)}
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  {item.label}
-                </button>
-              ))}
+            <nav className="flex items-center gap-1">
+              <div className="flex items-center gap-5 mr-4">
+                {navItems.map((item) => (
+                  <button
+                    key={item.href}
+                    onClick={() => scrollTo(item.href)}
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
               <LanguageSwitcher />
               <ThemeToggle />
             </nav>
