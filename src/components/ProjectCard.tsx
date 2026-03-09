@@ -10,22 +10,20 @@ interface ProjectCardProps {
     location: Record<Lang, string>;
     tags: string[];
     coverImage: string;
+    gallery: string[];
     description: Record<Lang, string>;
     fullDescription: Record<Lang, string>;
   };
-  expanded: boolean;
-  onToggle: () => void;
+  onClick: () => void;
 }
 
-export default function ProjectCard({ project, expanded, onToggle }: ProjectCardProps) {
-  const { lang, t } = useLang();
+export default function ProjectCard({ project, onClick }: ProjectCardProps) {
+  const { lang } = useLang();
 
   return (
     <div
-      className={`glass-card overflow-hidden flex-shrink-0 w-[280px] md:w-[340px] cursor-pointer select-none transition-all duration-300 ${
-        expanded ? 'w-[90vw] md:w-[600px]' : ''
-      }`}
-      onClick={onToggle}
+      className="glass-card overflow-hidden flex-shrink-0 w-[280px] md:w-[340px] cursor-pointer select-none"
+      onClick={onClick}
     >
       <div className="aspect-[4/3] overflow-hidden">
         <img
@@ -52,14 +50,7 @@ export default function ProjectCard({ project, expanded, onToggle }: ProjectCard
             </span>
           ))}
         </div>
-        {expanded && (
-          <p className="text-sm text-muted-foreground mt-3 leading-relaxed animate-fade-in">
-            {project.fullDescription[lang]}
-          </p>
-        )}
-        {!expanded && (
-          <p className="text-sm text-muted-foreground line-clamp-2">{project.description[lang]}</p>
-        )}
+        <p className="text-sm text-muted-foreground line-clamp-2">{project.description[lang]}</p>
       </div>
     </div>
   );
