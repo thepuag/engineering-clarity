@@ -4,7 +4,7 @@ import { useLang } from '@/contexts/LangContext';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 
-const COMPANY_NAME = 'NMG Ingeniería';
+const COMPANY_NAME = 'BIP Oficina Técnica';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
