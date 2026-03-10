@@ -20,7 +20,7 @@ export default function ServicesSection() {
             const Icon = iconMap[service.icon] || HardHat;
             return (
               <div key={service.id} className="glass-card overflow-hidden container-query">
-                <div className="aspect-[16/9] overflow-hidden">
+                <div className="aspect-[4/3] overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title[lang as Lang]}

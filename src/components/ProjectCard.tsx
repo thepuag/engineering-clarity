@@ -25,7 +25,7 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
       className="relative overflow-hidden flex-shrink-0 w-[320px] md:w-[520px] cursor-pointer select-none rounded-[var(--card-radius)] group"
       onClick={onClick}
     >
-      <div className="aspect-[4/3] overflow-hidden">
+      <div className="aspect-[16/9] overflow-hidden">
         <img
           src={project.coverImage}
           alt={project.title[lang]}
