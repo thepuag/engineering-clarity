@@ -22,35 +22,35 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
 
   return (
     <div
-      className="glass-card overflow-hidden flex-shrink-0 w-[280px] md:w-[340px] cursor-pointer select-none"
+      className="relative overflow-hidden flex-shrink-0 w-[280px] md:w-[340px] cursor-pointer select-none rounded-[var(--card-radius)] group"
       onClick={onClick}
     >
       <div className="aspect-[4/3] overflow-hidden">
         <img
           src={project.coverImage}
           alt={project.title[lang]}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
         />
       </div>
-      <div className="p-4">
-        <h3 className="font-semibold text-foreground mb-1">{project.title[lang]}</h3>
-        <div className="flex items-center gap-3 text-xs text-muted-foreground mb-2">
+      {/* Overlay with text */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4">
+        <h3 className="font-semibold text-white mb-1 text-sm md:text-base">{project.title[lang]}</h3>
+        <div className="flex items-center gap-2 text-[11px] text-white/70 mb-1.5">
           <span>{project.date}</span>
           <span>·</span>
           <span>{project.location[lang]}</span>
         </div>
-        <div className="flex gap-2 flex-wrap mb-2">
+        <div className="flex gap-1.5 flex-wrap">
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="text-[10px] px-2 py-0.5 rounded-full bg-secondary text-secondary-foreground"
+              className="text-[9px] px-1.5 py-0.5 rounded-full bg-white/20 text-white/90 backdrop-blur-sm"
             >
               {tag.replace('-', ' ')}
             </span>
           ))}
         </div>
-        <p className="text-sm text-muted-foreground line-clamp-2">{project.description[lang]}</p>
       </div>
     </div>
   );
