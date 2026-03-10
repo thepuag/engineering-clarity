@@ -22,7 +22,7 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
 
   return (
     <div
-      className="relative overflow-hidden flex-shrink-0 w-[280px] md:w-[340px] cursor-pointer select-none rounded-[var(--card-radius)] group"
+      className="relative overflow-hidden flex-shrink-0 w-[320px] md:w-[520px] cursor-pointer select-none rounded-[var(--card-radius)] group"
       onClick={onClick}
     >
       <div className="aspect-[4/3] overflow-hidden">
