@@ -5,12 +5,12 @@
 @layer base {
   :root {
     /* Palette: Navy engineering tones */
-    --navy-900: 212 60% 19%;    /* #132D4E */
-    --navy-950: 216 87% 8%;     /* #031124 */
-    --navy-700: 212 42% 34%;    /* #325179 */
-    --navy-500: 214 48% 43%;    /* #3967A3 */
-    --navy-300: 214 33% 71%;    /* #9AB0CE */
-    --navy-100: 214 64% 92%;    /* #DCE8F8 */
+    --navy-900: 197 71% 46%;    /* #229BCA*/
+    --navy-950: 197 50% 42%;     /* #3582A0*/
+    --navy-700: 197 100% 48%;    /* #00AEF4*/
+    --navy-500: 197 33% 35%;    /* #3B6575*/
+    --navy-300: 197 20% 25%;    /* #32444B*/
+    --navy-100: 195 9% 18%;    /* #2B3133*/
 
     /* Light theme */
     --background: 210 20% 98%;
@@ -102,7 +102,7 @@
 }
 
 @layer components {
-  /* Translucent card with hover effect */
+  /* Cards transparentes */
   .glass-card {
     background: hsl(var(--card-bg));
     border-radius: var(--card-radius);
@@ -115,7 +115,7 @@
     box-shadow: 0 8px 32px hsl(var(--primary) / 0.15);
   }
 
-  /* Floating navbar pill */
+  /* Barra de navegación flotante */
   .navbar-float {
     background: hsl(var(--navbar-bg));
     backdrop-filter: blur(16px);
@@ -129,7 +129,7 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* Dynamic island animation */
+  /* Isla dinamica */
   .island-enter {
     animation: island-expand 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   }
@@ -137,7 +137,7 @@
     animation: island-shrink 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   }
 
-  /* Carousel dots */
+  /* Puntos del carrusel */
   .dot {
     width: 6px;
     height: 6px;
