@@ -118,5 +118,26 @@
       "en": "Renovation project of an 18th-century mansion for conversion into a boutique hotel. Includes project management with structural reinforcement, protected facade restoration, and heritage-adapted installation calculations: concealed fan coil HVAC, embedded electrical systems and plumbing with DHW recirculation.",
       "de": "Sanierungsprojekt eines Palais aus dem 18. Jahrhundert zur Umwandlung in ein Boutique-Hotel. Umfasst Bauleitung mit Strukturverstärkung, Restaurierung der denkmalgeschützten Fassade und denkmalgerechte Installationsberechnungen: verdeckte Gebläsekonvektoren, Unterputz-Elektrik und Sanitär mit Warmwasserzirkulation."
     }
+  },
+  {
+    "id": "7",
+    "slug": "hotel-boutique-casco-antiguo",
+    "title": { "es": "Hotel Boutique Casco Antiguo", "en": "Old Town Boutique Hotel", "de": "Boutique-Hotel Altstadt" },
+    "date": "2024-01",
+    "location": { "es": "Palma, España", "en": "Palma, Spain", "de": "Palma, Spanien" },
+    "tags": ["direccion-obras", "calculo-instalaciones"],
+    "coverImage": "/images/projects/hotel-boutique-casco-antiguo/cover.jpg",
+    "gallery": [],
+    "description": {
+      "es": "Rehabilitación integral y cálculo de instalaciones para hotel boutique de 32 habitaciones en edificio histórico.",
+      "en": "Full renovation and installation calculations for a 32-room boutique hotel in a historic building.",
+      "de": "Gesamtsanierung und Installationsberechnungen für ein Boutique-Hotel mit 32 Zimmern in einem historischen Gebäude."
+    },
+    "fullDescription": {
+      "es": "Proyecto de rehabilitación de un palacete del siglo XVIII para su conversión en hotel boutique. Incluye dirección de obra con refuerzo estructural, restauración de fachada protegida, y cálculo de instalaciones adaptadas al patrimonio: climatización por fancoils ocultos, electricidad empotrada y fontanería con recirculación de ACS.",
+      "en": "Renovation project of an 18th-century mansion for conversion into a boutique hotel. Includes project management with structural reinforcement, protected facade restoration, and heritage-adapted installation calculations: concealed fan coil HVAC, embedded electrical systems and plumbing with DHW recirculation.",
+      "de": "Sanierungsprojekt eines Palais aus dem 18. Jahrhundert zur Umwandlung in ein Boutique-Hotel. Umfasst Bauleitung mit Strukturverstärkung, Restaurierung der denkmalgeschützten Fassade und denkmalgerechte Installationsberechnungen: verdeckte Gebläsekonvektoren, Unterputz-Elektrik und Sanitär mit Warmwasserzirkulation."
+    }
   }
+
 ]
